@@ -1,6 +1,7 @@
 <div align="center">
 	<h1>AcidSignal</h1>
 	<p>A simple and lightweight <code>signal</code> implementation for Roblox</p>
+	<a href="https://thecogumeta.github.io/rbx-acidsignal/"><strong>View docs</strong></a>
 </div>
 
 <!--moonwave-hide-before-this-line-->
