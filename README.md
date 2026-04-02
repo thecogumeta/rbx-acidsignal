@@ -14,6 +14,5 @@ Most signal libraries give you the basics and nothing else. **AcidSignal** keeps
 
 - **Connect & Fire**: Standard signal behavior you already know.
 - **Once()**: Connects and automatically disconnects after the first fire.
-- **Connection priority**: Control the order callbacks execute with priority levels.
 - **Async fire**: Fire without blocking the current thread.
 - **Clean disconnect**: Connections return a handle with `:Disconnect()` and the signal has `:DisconnectAll()`.
