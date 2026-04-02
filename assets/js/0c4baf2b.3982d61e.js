@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[603],{4410:s=>{s.exports=JSON.parse('{"sourceUrl":"https://github.com/thecogumeta/rbx-acidsignal/blob/main","baseUrl":"/rbx-acidsignal/","classOrder":[],"apiCategories":[]}')}}]);
