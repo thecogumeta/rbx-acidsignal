@@ -1,0 +1,19 @@
+{
+  "name": "AcidSignal Test-Runner",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "DevPackages": {
+        "$path": "DevPackages"
+      },
+      "AcidSignal": {
+        "$path": "lib"
+      }
+    },
+    "ServerScriptService": {
+      "Tests": {
+        "$path": "tests"
+      }
+    }
+  }
+}

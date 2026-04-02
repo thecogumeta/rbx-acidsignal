@@ -1,0 +1,23 @@
+title = "AcidSignal"
+gitRepoUrl = "https://github.com/thecogumeta/rbx-acidsignal"
+gitSourceBranch = "main"
+
+[docusaurus]
+onBrokenLinks = "throw"
+onBrokenMarkdownLinks = "warn"
+
+[home]
+enabled = true
+includeReadme = true
+
+[[home.features]]
+title = "Simple API"
+description = "A familiar signal interface with Connect, Once, Wait and Fire — no learning curve."
+
+[[home.features]]
+title = "Performance"
+description = "Built with a thread pool and a doubly linked list to keep overhead minimal."
+
+[[home.features]]
+title = "Connection Control"
+description = "Pass bound arguments to avoid closures, and reuse connections with Reconnect instead of creating new ones."

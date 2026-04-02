@@ -1,0 +1,36 @@
+{
+  "name": "@rbxts/acidsignal",
+  "version": "1.0.0",
+  "description": "A simple and lightweight signal implementation for Roblox",
+  "main": "lib/init.luau",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecogumeta/rbx-acidsignal.git"
+  },
+  "keywords": [
+    "roblox",
+    "roblox-ts",
+    "rbxts",
+    "testing",
+    "luau"
+  ],
+  "author": "Cogu ( @thecogumeta )",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecogumeta/rbx-acidsignal/issues"
+  },
+  "homepage": "https://github.com/thecogumeta/rbx-acidsignal#readme",
+  "peerDependencies": {
+    "@rbxts/types": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

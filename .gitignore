@@ -1,0 +1,11 @@
+node_modules/
+*Packages/
+
+# Build files
+*.rbxm
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap*.json

@@ -1,0 +1,15 @@
+[package]
+name = "thecogumeta/acidsignal"
+description = "A simple and lightweight signal implementation for Roblox"
+version = "1.0.0"
+license = "MIT"
+authors = ["Cogu (@thecogumeta)"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["**"]
+include = ["lib", "lib/*", "lib/**/*", "default.project.json", "wally.toml"]
+
+[dependencies]
+
+[dev-dependencies]
+Specium = "thecogumeta/specium@1.2.0"
