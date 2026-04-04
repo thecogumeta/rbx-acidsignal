@@ -1,10 +1,10 @@
-interface Connection<A extends unknown[], V extends unknown[]> {
+interface Connection<A extends unknown[] = [], V extends unknown[] = []> {
   Connected: boolean;
   Disconnect(): void;
   Reconnect(): void;
 }
 
-interface Signal<A extends unknown[]> {
+interface Signal<A extends unknown[] = []> {
   Connect<V extends unknown[]>(
     fn: (...args: [...A, ...V]) => void,
     ...boundArgs: V
@@ -25,7 +25,7 @@ interface Signal<A extends unknown[]> {
 }
 
 interface AcidSignal {
-  new <A extends unknown[]>(): Signal<A>;
+  new <A extends unknown[] = []>(): Signal<A>;
 }
 
 declare const AcidSignal: AcidSignal;
