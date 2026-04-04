@@ -311,7 +311,6 @@ local function SignalWait<A...>(self_: Signal<A...>, timeout: number?): A...
 	local conn: Connection<...any>
 	conn = SignalConnect(self, function(...)
 		conn:Disconnect()
-		print(...)
 		Resume(thread, ...)
 		if timeoutThread then task.cancel(timeoutThread) end
 	end)
