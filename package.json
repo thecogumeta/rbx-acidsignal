@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/acidsignal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and lightweight signal implementation for Roblox",
   "main": "lib/init.luau",
   "types": "lib/index.d.ts",
