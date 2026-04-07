@@ -1,7 +1,7 @@
 [package]
 name = "thecogumeta/acidsignal"
 description = "A simple and lightweight signal implementation for Roblox"
-version = "1.0.1"
+version = "1.0.2"
 license = "MIT"
 authors = ["Cogu (@thecogumeta)"]
 realm = "shared"

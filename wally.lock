@@ -4,7 +4,7 @@ registry = "test"
 
 [[package]]
 name = "thecogumeta/acidsignal"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [["Specium", "thecogumeta/specium@1.2.0"]]
 
 [[package]]
