@@ -193,8 +193,16 @@ export type Connection<A..., V...> = {
 	Reconnect: (self: Connection<A..., V...>) -> (),
 }
 export type Signal<A...> = {
-	Connect: <V...>(self: Signal<A...>, fn: (...any) -> (), V...) -> (),
-	Once: <V...>(self: Signal<A...>, fn: (...any) -> (), V...) -> (),
+	Connect: <V...>(
+		self: Signal<A...>,
+		fn: (...any) -> (),
+		V...
+	) -> Connection<A..., V...>,
+	Once: <V...>(
+		self: Signal<A...>,
+		fn: (...any) -> (),
+		V...
+	) -> Connection<A..., V...>,
 	Wait: (self: Signal<A...>, timeout: number?) -> A...,
 	Fire: (self: Signal<A...>, A...) -> (),
 	DisconnectAll: (self: Signal<A...>) -> (),
